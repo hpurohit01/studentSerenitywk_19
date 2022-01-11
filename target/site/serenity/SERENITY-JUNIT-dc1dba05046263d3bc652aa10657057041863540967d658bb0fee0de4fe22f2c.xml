@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="com.localhost.studentinfo.StudentCRUDTestWithSteps" skipped="0" tests="1" time="6.61" timestamp="2022-01-09T18:32:31.984Z[Europe/London]"><testcase classname="com.localhost.studentinfo.StudentCRUDTestWithSteps" name="Delete the student and verify if the student is deleted!"><failure message="1 expectation failed.&#10;Expected status code &lt;204&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;204&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;204&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.localhost.studentinfo.StudentCRUDTestWithSteps.test004(StudentCRUDTestWithSteps.java:65)&#13;
+</system-err></testcase></testsuite>
